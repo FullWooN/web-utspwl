@@ -1,0 +1,68 @@
+/* Navbar.css */
+
+/* Navbar background */
+.navbar-custom {
+  background-color: #007bff;
+  border-bottom: 2px solid #0056b3;
+  transition: background-color 0.3s ease;
+}
+
+/* Navbar brand */
+.navbar-custom .navbar-brand {
+  color: #fff !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Navbar link hover effect */
+.navbar-custom .navbar-nav .nav-link {
+  color: #fff !important;
+  font-size: 1.1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for links */
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #f8f9fa !important;
+  transform: scale(1.1); /* Membesarkan link saat hover */
+}
+
+/* Navbar toggle animation */
+.navbar-custom .navbar-toggler-icon {
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-custom .navbar-toggler-icon:hover {
+  background-color: #0056b3; /* Hover effect pada icon toggle */
+}
+
+/* Animasi muncul navbar */
+@keyframes navbarSlideIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.navbar-custom {
+  animation: navbarSlideIn 0.5s ease-out;
+}
+
+/* Scroll effect: Change navbar color on scroll */
+.navbar-scrolled {
+  background-color: #0056b3 !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Adjust for small screens */
+@media (max-width: 767px) {
+  .navbar-custom {
+    background-color: #0056b3;
+  }
+}

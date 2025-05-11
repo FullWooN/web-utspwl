@@ -1,0 +1,66 @@
+/* Style untuk Dashboard */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  .card {
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  button {
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .background {
+    color: antiquewhite;
+  }
+
+  .NavbarComponents {
+    background: 'linear-gradient(to right, #ff7e5f, #feb47b)'
+  }
+  
+  /* navbar.css - Styling untuk Card dan Konten */
+.card-title {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+button {
+  border-radius: 30px;
+}
+
+h2 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}

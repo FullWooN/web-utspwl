@@ -1,0 +1,50 @@
+/* src/StartPage.css */
+
+.start-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0073e6;  /* Warna biru seperti tema PLN */
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .start-page-content {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .start-page-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .start-page-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .start-page-button {
+    background-color: #0073e6;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .start-page-button:hover {
+    background-color: #005bb5;
+  }
+  
